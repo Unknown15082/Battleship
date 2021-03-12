@@ -1,5 +1,5 @@
 # Battleship
 
-This is a one-player Battleship game written in Python.
+This is a Battleship game written in Python.
 
-Created in 12/3/2021.
+Created in 12/03/2021.
