@@ -77,12 +77,3 @@ class Square:
     def chosen_for_shot(self):
         pass
         # TODO: change state, color
-
-
-    
-
-    
-
-    
-
-    
