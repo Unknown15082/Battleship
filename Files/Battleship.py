@@ -2,10 +2,10 @@ class ShipBoard:
     def __init__(self):
 
         self.squares = []
-        self.remain = [False * 100]
+        self.remain = [False] * 100
         self.ships = [] #(x, y, length, dir)
 
-        for i in range(100):s
+        for i in range(100):
             a, b = i//10, i%10
             self.squares.append(Square(a, b, "ship"))
 
@@ -43,9 +43,9 @@ class AtkBoard:
     def __init__(self):
 
         self.squares = []
-        self.legal = [True*100]
+        self.legal = [True]*100
 
-        for _ in range(100):
+        for i in range(100):
             a, b = i//10, i%10
             self.squares.append(Square(a, b, "atk"))
 
